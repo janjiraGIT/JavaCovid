@@ -17,7 +17,7 @@ public class Main {
         //stringEx.Run();
 
         SwitchEx switchEx = new SwitchEx();
-        switchEx.Run(EnumEx.SUNDAY);
+        //switchEx.Run(EnumEx.SUNDAY);
 
         WhileEx whileEx = new WhileEx();
         //whileEx.Run(20);
@@ -96,12 +96,22 @@ public class Main {
         FileReadEx file = new FileReadEx();
         //file.Run();
 
-
+        /**
         ArrayListScanner arrayListScanner = new ArrayListScanner();
         ArrayList<Integer> listNumbers = arrayListScanner.inputTheNumbers();
         arrayListScanner.findTheHighestNumber(listNumbers);
         arrayListScanner.findTheLowestNumber(listNumbers);
         arrayListScanner.sumAllNumbers(listNumbers);
+         **/
+
+        //var repreatedString = new RepreatedString();
+        //repreatedString.RunIt();
+
+        var inOutPrintF = new InOutPrintF();
+        inOutPrintF.RunIt();
+
+
+
 
     }
 }
