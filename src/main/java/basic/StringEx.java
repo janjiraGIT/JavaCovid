@@ -1,3 +1,5 @@
+package basic;
+
 public class StringEx {
     public void Run() {
         String myString = "This is Janjira";

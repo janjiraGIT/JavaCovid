@@ -1,7 +1,11 @@
+package steam;
+
+import basic.Excercise;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class ArrayFindSpecificedElements implements Excercise{
+public class ArrayFindSpecificedElementsStream implements Excercise {
 
     private Object ArrayList;
 

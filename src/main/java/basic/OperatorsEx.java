@@ -1,3 +1,5 @@
+package basic;
+
 public class OperatorsEx {
     public void Run() {
         int result = 1;
@@ -19,7 +21,9 @@ public class OperatorsEx {
         result -= 2; // 10 -2 = 8
         System.out.println("10 - 2 = " + result);
 
+        result = result % 2 ; // 8 % 2 = 0
 
+        System.out.println("8 % 2 = " + result );
 
     }
 }

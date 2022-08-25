@@ -1,3 +1,5 @@
+package basic;
+
 public class ForLoopEx {
     public void Run() {
         int a = 10;

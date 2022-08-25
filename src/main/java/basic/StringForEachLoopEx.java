@@ -1,3 +1,5 @@
+package basic;
+
 public class StringForEachLoopEx {
     public void Run() {
         String day[] = {"Sunday", "Mongday", "Tuesday", "Thursday", "Satuaday"};

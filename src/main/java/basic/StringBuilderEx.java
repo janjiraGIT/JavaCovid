@@ -1,3 +1,5 @@
+package basic;
+
 public class StringBuilderEx {
     public void Run() {
         StringBuilder stringBuilder = new StringBuilder();

@@ -1,8 +1,12 @@
+package steam;
+
+import basic.Excercise;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Random;
 
-public class DifferenceValueArrayMinMax implements Excercise{
+public class DifferenceValueArrayMinMaxStream implements Excercise {
     /**
      * Write a Java program to get the difference between the largest and smallest values in an array of integers. The length of the array must be 1 and above.
      */
@@ -24,9 +28,6 @@ public class DifferenceValueArrayMinMax implements Excercise{
 
         Integer diff = max - min;
         System.out.printf("The difference between %d and %d is " + max + min + diff);
-
-
-
 
     }
 }

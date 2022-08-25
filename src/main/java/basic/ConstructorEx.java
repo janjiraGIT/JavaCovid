@@ -1,3 +1,5 @@
+package basic;
+
 public class ConstructorEx {
     String fullname;
     String familyName;

@@ -1,3 +1,5 @@
+package basic;
+
 public class IfEx {
     public void Run() {
         boolean isCorrect = true;

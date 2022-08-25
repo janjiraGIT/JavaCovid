@@ -1,3 +1,8 @@
+package steam;
+
+import basic.Jobs;
+import basic.Person;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -10,14 +15,14 @@ public class StreamEx {
                 .get();
         System.out.println(maxChar);
 
-        //Person person1 = new Person("Janjira",43, 45000);
-        //Person person2 = new Person("Benjamin",33, 75000);
-        //Person person3 = new Person("Jarin",18, 25000);
+        Person person1 = new Person("Janjira",45, Jobs.PO, 10, "janjira@mail.com", true);
+        Person person2 = new Person("Benji",20, Jobs.DEVELOPER, 2, "benji@mail.com", true);
+        Person person3 = new Person("Joakim",43, Jobs.CEO, 5, "joa@mail.com", true);
 
         List<Person> personList = new ArrayList<Person>();
-        //personList.add(person1);
-        //personList.add(person2);
-        //personList.add(person3);
+        personList.add(person1);
+        personList.add(person2);
+        personList.add(person3);
 
         Comparator<Person> comparator = Comparator.comparing(Person::getAge);
 

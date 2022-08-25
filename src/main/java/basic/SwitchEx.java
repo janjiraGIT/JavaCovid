@@ -1,3 +1,5 @@
+package basic;
+
 public class SwitchEx {
     public void Run(EnumEx day) {
         int money = 0;

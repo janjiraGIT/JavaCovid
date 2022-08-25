@@ -1,7 +1,14 @@
+package steam;
+
+import basic.Excercise;
+import basic.InternetAddress;
+import basic.Jobs;
+import basic.Person;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Stream implements Excercise{
+public class Stream implements Excercise {
 
     @Override
     public void RunIt() {

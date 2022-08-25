@@ -1,3 +1,5 @@
+package basic;
+
 public enum EnumEx {
     MONDAY,
     TUESDAY,

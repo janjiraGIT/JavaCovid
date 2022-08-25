@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.HashSet;
 
 public class HashSetEx {
@@ -13,17 +15,16 @@ public class HashSetEx {
         hashSet.add("Sunday2");
 
         for ( String set: hashSet) {
-           // System.out.println(set);
-
+            System.out.println(set);
         }
+        int count = 0;
 
         for( int i = 0; i <= hashSet.size(); i++ ) {
-            if (hashSet.contains("Sunday")) {
-                int count = 0;
+            if (hashSet.equals("Sunday")) {
                 count ++;
-                System.out.println("We fond Sunday " + count );
             }
         }
+        System.out.println("We fond Sunday " + count );
 
     }
 }

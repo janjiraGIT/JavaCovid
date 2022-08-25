@@ -1,15 +1,23 @@
+import basic.*;
+import steam.ArrayFindSpecificedElementsStream;
+import steam.DifferenceValueArrayMinMaxStream;
+import steam.Stream;
+import steam.StreamEx;
+
 import java.io.IOException;
-import java.util.ArrayList;
+
+import static basic.Jobs.DEVELOPER;
 
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-	    Valiable valiable = new Valiable();
+        var valiable = new Valiable();
 	    //valiable.Run();
 
         OperatorsEx operatorsEx = new OperatorsEx();
-        //operatorsEx.Run();
+        // operatorsEx.Run();
+
         IfEx ifEx = new IfEx();
         //ifEx.Run2();
 
@@ -28,12 +36,11 @@ public class Main {
         StringForEachLoopEx stringForEachLoopEx = new StringForEachLoopEx();
         //stringForEachLoopEx.Run();
 
-
         ConstructorEx constructorEx = new ConstructorEx("Janjira", "Erik");
         //System.out.println(constructorEx.fullname + constructorEx.familyName);
 
-        //Person person = new Person("Benji",9,0);
-        //System.out.println(person.getName() + ":" + person.getAge() + ":" + person.getSalary());
+        Person person = new Person("Benji",9, DEVELOPER, 5, "benji@gmail.com", false);
+        //System.out.println(person.toString());
 
         ArrayListEx list = new ArrayListEx();
         //list.Run();
@@ -56,7 +63,7 @@ public class Main {
 
         TryCatchEx tryCatchEx = new TryCatchEx();
         //tryCatchEx.Run();
-        //tryCatchEx.checkAge(18);
+        //tryCatchEx.checkAge(17);
 
         ScannerEx scannerEx = new ScannerEx();
         //scannerEx.Run();
@@ -79,10 +86,10 @@ public class Main {
         AverageValue averageValue = new AverageValue();
         //averageValue.RunIt();
 
-        DifferenceValueArrayMinMax differenceValue = new DifferenceValueArrayMinMax();
+        DifferenceValueArrayMinMaxStream differenceValue = new DifferenceValueArrayMinMaxStream();
         //differenceValue.RunIt();
 
-        ArrayFindSpecificedElements arrayFindSpecificedElements = new ArrayFindSpecificedElements();
+        ArrayFindSpecificedElementsStream arrayFindSpecificedElements = new ArrayFindSpecificedElementsStream();
         //arrayFindSpecificedElements.RunIt();
 
         EmployeeData employeeData = new EmployeeData();

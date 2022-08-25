@@ -1,4 +1,6 @@
-public class AverageValue implements Excercise{
+package basic;
+
+public class AverageValue implements Excercise {
     /**
      * Write a Java program to calculate the average value of array elements.
      */

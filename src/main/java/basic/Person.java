@@ -1,4 +1,4 @@
-import basic.Jobs;
+package basic;
 
 public class Person {
     String name;

@@ -1,3 +1,5 @@
+package basic;
+
 public enum Jobs {
     DEVELOPER,
     ACCOUNTANT,

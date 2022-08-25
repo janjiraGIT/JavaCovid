@@ -1,3 +1,5 @@
+package basic;
+
 public class WhileEx {
     public void Run(int i) {
         while (i <= 50) {
